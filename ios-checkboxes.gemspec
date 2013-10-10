@@ -3,7 +3,7 @@ require File.expand_path('../lib/ios-checkboxes/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "ios-checkboxes"
-  s.version     = 2
+  s.version     = 3
   s.authors     = ["Thomas Reynolds"]
   s.email       = ["me@tdreyno.com"]
   s.homepage    = "https://github.com/tdreyno/iphone-style-checkboxes"
