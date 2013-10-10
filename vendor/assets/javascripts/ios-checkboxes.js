@@ -175,7 +175,7 @@
         width: containerWidth - this.containerRadius
       });
       offset = this.containerRadius + 1;
-      if ($.browser.msie && $.browser.version < 7) {
+      if (navigator.userAgent.match(/msie/i) && /msie [1-6]./.test(navigator.userAgent.toLowerCase()) ) {
         offset -= 3;
       }
       this.rightSide = containerWidth - this._getDimension(this.handle, "width") - offset;
