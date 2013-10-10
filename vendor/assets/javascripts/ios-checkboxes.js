@@ -37,7 +37,7 @@
       return this.handle = $("<div class='" + this.handleClass + "'>\n  <div class='" + this.handleRightClass + "'>\n    <div class='" + this.handleCenterClass + "' />\n  </div>\n</div>").appendTo(this.container);
     };
     iOSCheckbox.prototype.disableTextSelection = function() {
-      if (navigator.userAgent.match(/msie/i) {
+      if (navigator.userAgent.match(/msie/i)) {
         return $([this.handle, this.offLabel, this.onLabel, this.container]).attr("unselectable", "on");
       }
     };
